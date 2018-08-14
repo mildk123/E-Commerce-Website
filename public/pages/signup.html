@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SignUp form</title>
+
+  <!-- CSS LINKS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <link rel="stylesheet" href="../css/signup.css">
+
+  <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+
+
+
+</head>
+
+<body>
+
+  <div class="login">
+    <h1>SignUp FORm</h1>
+
+    <form class="form" method="post" action="#">
+      <p class="field">
+        <input type="text" id="fname" placeholder="First Name" required/>
+      </p>
+      <p class="field">
+        <input type="text" id="lname" placeholder="Last Name" required/>
+      </p>
+      <p class="field">
+        <input type="text" id="username" placeholder="Username" required/>
+      </p>
+
+      <p class="field">
+        <input type="email" id="email" placeholder="Email" required/>
+      </p>
+      <p class="field">
+        <input type="password" id="password" placeholder="Password" required/>
+      </p>
+      <p class="field">
+        <input type="password" id="cPassword" placeholder="Confirm Password" required/>
+      </p>
+      <p class="submit">
+        <a href="login.html"><input type="submit" onclick="signup()" value="SignUp"></a>
+      </p>
+    </form>
+
+    <div class="navigation col-12 bg-danger">
+      <a href="../index.html">
+        <button style="width: 150px; height: 50px; margin-top:5%; margin-left:6%; border: none; color: white; background-color: rgb(11, 90, 237);border-radius: 25px;">To Home Page</button>
+      </a>
+      <a href="login.html">
+        <button style="width: 150px; height: 50px; margin-top:5%; margin-left:6%; border: none; color: white; background-color: rgb(218, 169, 6);border-radius: 25px;">To login Page</button>
+      </a>
+    </div>
+
+  </div>
+
+
+  
+  <script src="../script.js"></script>
+</body>
+
+</html>

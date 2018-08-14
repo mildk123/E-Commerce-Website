@@ -1,0 +1,524 @@
+*{
+  outline: none !important;
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+
+li{
+  list-style: none;
+}
+
+/* HEADER START */
+
+#top-row {
+  background-color: #2ecc71  !important;
+}
+
+#top-row .nav-link {
+  color: white;
+  line-height: 1em;
+}
+
+#top-row .nav-link:Hover {
+  color: white;
+  background-color: #039BE5;
+  text-decoration: none;
+}
+
+/* HEADER MAIN */
+
+#mid-row {
+  background-color: #ecf0f1;
+}
+
+#main-logo {
+  width: 45%;
+  margin-left: 8%;
+  /* background-color: blue; */
+}
+
+#search {
+  border: 0px solid;
+  border-radius: 25px;
+  box-shadow: 1px 1px 11px gainsboro;  
+  width: 39%;
+  height: 10px;
+  padding: 20px;
+  margin-left: -140px;
+  margin-top: 38px;
+  margin-bottom: 38px;
+  margin-right: 5px;
+}
+
+#btn {
+  border: 0px solid;
+  border-radius: 25px;
+  width: 45px;
+  height: 40px;
+  margin-top: 38px;
+  margin-bottom: 38px;
+  margin-right: 0px;
+  background-color: #2ecc71  !important;
+}
+
+
+#cart-logo {
+  width: 100px;
+  background: none;
+  border: none;
+  outline: none;
+  margin-left: 15%;
+}
+
+/* HEADER BOTTOM */
+
+#header-bottom {
+  background-color: #2ecc71;
+}
+
+#header-bottom .nav-link {
+  font-size: 15px;
+  font-size: 0.9em;
+  text-shadow: 2px 2px 3px grey;
+  font-style: normal;
+  color: white;
+}
+
+#header-bottom .nav-link:hover {
+  background: rgb(6, 82, 32);
+  text-shadow: 1px 2px 3px grey;
+  color: white;
+}
+
+
+
+
+/* Main Body */
+
+.heading1{
+  font-size: 4em;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px gray;
+}
+.product-group{
+	margin: 5% 0% 10% 10%;
+}
+
+.col-md-3{
+  margin-bottom: 2%;
+  box-shadow: 0px 1px 5px rgb(197, 194, 194) !important;
+}
+.col-md-3:hover{
+  background-color: rgb(253, 145, 4); 
+}
+
+
+/* Categories Group */
+
+#cat-group{
+  background-color: white;
+  height: 300px;
+  width: 80%;
+  margin: 0% 11%;
+  padding: 20px;
+}
+#categories img{
+  width: 10%;
+  margin: 10px
+}
+
+#cat-group a{
+  text-decoration: none;
+}
+
+
+/* Cart Modal CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
+
+.listContainer{
+  padding: 0%;
+
+  /* background: #cdd0d1; */
+
+}
+
+.container{
+  height: auto;
+  overflow: hidden;
+  padding: 0.2%;
+  width: auto !important;
+
+  /* background: #2ecc71; */
+}
+
+
+.img{
+    float: left;
+    width: 20%;
+    margin: 1%;
+
+  /* border: 1px solid red; */
+}
+
+.itemData{
+  float: left;
+  margin-top: 1%;
+  margin-right: 1%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+  width: 76%;
+  height: auto;
+
+  
+
+  padding: 0px ;
+
+  /* background-color: peru; */
+  height: auto;
+}
+
+.Name{
+  float: left;
+  margin: 1.2%;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  
+  /* background: red; */
+}
+
+#delBtn{
+ float: right;
+}
+
+.desc{
+  margin: 1.2%;
+  font-size: 1.4vw;
+  clear: both;
+
+  width: 60%;
+}
+
+.price{
+  clear: both;
+  float: right;
+
+  font-size: 2.4vw;
+}
+
+.hr{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer-distributed{
+  background-color: #cdd0d1;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 150px;
+	width: 100vw;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  black;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  black;;
+}
+
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  black;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #242424;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+
+
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #2ecc71;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color:  #1f1f1f;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #1f1f1f;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #000000;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #000000;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #2ecc71;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+
+/* Product Group STYLING */
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+.snip1418 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  background: #ffffff;
+  text-align: left;
+  color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-perspective: 20em;
+  perspective: 20em;
+}
+.snip1418 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.snip1418 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+.snip1418 .add-to-cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 10px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  opacity: 0;
+  background-color: #2ecc71  !important;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+.snip1418 .add-to-cart i {
+  display: inline-block;
+  margin-right: 10px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #164666;
+  color: #ffffff;
+  font-size: 1.4em;
+}
+.snip1418 figcaption {
+  padding: 20px;
+}
+.snip1418 h3,
+.snip1418 p {
+  margin: 0;
+}
+.snip1418 h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.snip1418 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.snip1418 .price {
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 48px;
+  letter-spacing: 1px;
+}
+.snip1418 .price s {
+  margin-right: 5px;
+  opacity: 0.5;
+  font-size: 0.9em;
+}
+.snip1418 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1418:hover .add-to-cart,
+.snip1418.hover .add-to-cart {
+  opacity: 1;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.snip1418:hover .add-to-cart i,
+.snip1418.hover .add-to-cart i {
+  background-color: #2980b9;
+}
